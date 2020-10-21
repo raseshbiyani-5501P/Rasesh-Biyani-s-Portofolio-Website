@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    background:linear-gradient(#22c1c3 0%,#fdbb2d 100%);
+    }
+
+#img1 {
+    height: 100px;
+    padding: 10px;
+    width: 100px;
+    border: dotted;
+    border-color: red;
+}
+
+.line {
+    height: 6px;
+    background-color: #78FECF;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#main {
+    font-size: 40px;
+    color: crimson;
+    height:auto;
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: fixed;
+    right: 40px;
+    top: 25px;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+html{
+    scroll-behavior: smooth
+}
+.links {
+    float: left;
+    color: rosybrown;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline;
+
+}
+#welcome{
+        padding-top: 300px;
+}
+#quote{
+    color: darkblue;
+}
+#books{
+    background-color: linear-gradient (#00E8FC 0%,#FF101F 100%);
+}
+#inspi{
+    color:darkorchid;
+}
+#imageclickorder{
+    font-family:cursive;
+}
+#img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    height: 400px;
+    width: 400px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#conta{
+    text-shadow: red 2px.2px;
+}
+#contacts iframe {
+        width: 100%;
+    }
+
+    #contacts {
+        background-color: darkorange;
+    }
+
+    .contact_1 a {
+        text-decoration: underline !important;
+        text-shadow: 2px 2px black;
+        color: crimson;
+        font-family: sans-serif;
+    }
+
+    .contact_1 h3 {
+        display: inline;
+    }
